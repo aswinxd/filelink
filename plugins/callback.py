@@ -4,11 +4,8 @@ from pyrogram import Client
 from pyrogram.types import CallbackQuery
 
 ABOUT_TEXT = """
--> DEVELOPER: @MaybeSuraj
--> LANGUAGE: Python3
--> LIBRARY: Pyrogram
--> CHANNEL: @MaybeBots
--> GROUP: @MaybeBotsSupport
+-> DEVELOPER: @sailorxd
+-> @Mallu_Playlist
 """
 
 @Client.on_callback_query()
