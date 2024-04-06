@@ -14,7 +14,7 @@ from pyrogram.errors.exceptions.bad_request_400 import ChannelInvalid
 async def start(app, msg):
     await DB.add_user(msg.from_user.id) 
     if len(msg.command) < 2:
-        TEXT = 'Hello there {},\nI can store files in Specified Channel and other users can access it from special link.'
+        TEXT = 'Hello there {},\n this bot is made by @Mallu_Playlist'
         await msg.reply(TEXT.format(msg.from_user.mention), reply_markup=start_markup)
         return 
         
